@@ -5,7 +5,7 @@ import seaborn as sb
 
 def main():
     st.title('자동차 데이터의 분석 ~ ')
-    st.subheader('차트 보기')
+    st.subheader('미국에서 운행중인 자동차 데이터')
     df = pd.read_csv('./data/fuel_econ.csv')
     if st.checkbox('데이터 프레임 보기') : 
         st.dataframe(df)
